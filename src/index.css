@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --hover-color: #5175f0;
+  --bg-color: #101224;
+  --text-color: #f5f5f5;
+  --main-bg-color: #353956;
+  --secondary-bg-color: #2d3048;
+}
+
+.electrolize-regular {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
