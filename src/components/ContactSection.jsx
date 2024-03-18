@@ -20,7 +20,7 @@ const ContactSection = () => {
           <ContactItem key={contact.name} {...contact} />
         ))}
         {!showSidebar && (
-          <div className="mb-8 ml-4 mt-4 flex h-[55px] w-[55px] items-center justify-center rounded-full border-2 border-dashed border-[var(--text-color)] text-xl opacity-45">
+          <div className="mb-5 ml-4 mt-4 flex h-[55px] w-[55px] items-center justify-center rounded-full border-2 border-dashed border-[var(--text-color)] text-xl opacity-45">
             +
           </div>
         )}
